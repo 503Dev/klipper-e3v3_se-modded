@@ -2,6 +2,8 @@
 
 # Modified Klipper for the Creality Ender 3 V3 SE with display support 
 
+Updates for this repo: This merges multiple projects, specifically the work of 0xD34D and jpcurti.  The repo permits the Ender 3 V3 SE to have a functional display with no additional hardware using Klipper.  In addition the built in load cell for auto z-offset calibration is functional.  I have included my reverse engineered Gcode Macros from the Ender 3 V3 KE which implement the auto-calibration using the z-offset calibration before each print. The routine has been carefully adapted and implemented to work with the Ender 3 V3 SE.
+
 This is a modified [Klipper](https://www.klipper3d.org/) that supports the original **Creality E3V3SE (Ender 3 V3 SE)** display by combining [E4ST2W3ST serial bridge](https://github.com/Klipper3d/klipper/commit/6469418d73be6743a7130b50fdb5a57d311435ca) with the [ender 3 v3 se display interface](https://github.com/jpcurti/E3V3SE_display_klipper) to make it possible to use the printers display cable without any hardware modification. This repository is forked from [0XD34Ds klipper config](https://github.com/0xD34D/klipper_ender3_v3_se), but its commits can be applied separately from any other configuration. 
  
 ![Demonstration image](docs/e3v3se_display/display_e3v3se_klipper.gif)
