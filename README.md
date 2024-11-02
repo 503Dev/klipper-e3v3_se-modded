@@ -51,6 +51,8 @@ The currently supported features are:
 | Cooldown               | &check; |
 | Set nozzle temperature | &check; |
 | Set bed temperature    | &check; |
+| PRTouch Auto Level     | &check; |
+| Z-offset auto level    | &check; |
 | Set max speed          | &cross; |
 | Set max acceleration   | &cross; |
 | Set steps per-mm       | &cross; |
